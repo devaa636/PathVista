@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <select id="algoSelect">
+    <option value="bfs">BFS</option>
+    <option value="dfs">DFS</option>
+    <option value="dijkstra">Dijkstra</option>
+    <option value="astar">A*</option>
+  </select>
+
+  <button id="startBtn">▶ Start</button>
+  <button id="clearBtn">🧹 Clear</button>
+  <button id="wallBtn">🧱 Walls</button>
+  <button id="startNodeBtn">🟢 Start</button>
+  <button id="endNodeBtn">🔴 End</button>
+
+  <span id="modeText">Mode: WALL</span>
+</header>
+
+<div id="grid"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
