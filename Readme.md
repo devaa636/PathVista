@@ -58,7 +58,10 @@ Just download or clone the project:
 ```bash
 git clone <www.github.com/devaa636/PathVista>
 cd pathfinding-visualizer
-▶️ How to Run
+```
+
+## ▶️ How to Run
+```bash
 Simply open index.html in your browser.
 
 bash
@@ -70,8 +73,9 @@ bash
 Copy code
 Right click → Open with Chrome
 No server. No npm. No build tools.
-
-🧠 How to Use
+```
+## 🧠 How to Use
+```bash
 Select algorithm from dropdown (BFS / DFS / Dijkstra / A*)
 
 Use buttons:
@@ -116,3 +120,4 @@ Optimized version of Dijkstra
 Uses heuristic (Manhattan distance)
 
 Faster and smarter search
+```
